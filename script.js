@@ -26,3 +26,13 @@ fetch(url)
       }
     });
   });
+
+
+fetch(url)
+.then(response => response.json())
+.then(data => {
+  var rows = data.values;  // Access the values of the cells
+  var firstValue = rows[0][0];  // Get the first value
+  document.getElementById('sheet-data').innerText = firstValue;  // Display the value
+})
+.catch(error => console.error('Error:', error));
