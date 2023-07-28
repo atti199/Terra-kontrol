@@ -1,6 +1,6 @@
-var sheetId = "1khPsuozntGp8KXOpLYocFxQROE_qGbMk";  // Replace with your Sheet ID
+var sheetId = "552937929";  // Replace with your Sheet ID
 var apiKey = "AIzaSyBFEHQpGzSbF36WE8FySkFARJstBczTEiQ";  // Replace with your API Key
-var range = "Sheet1!A1:C10";  // The range of cells you want to access
+var range = "terv 23!L16";  // The range of cells you want to access
 
 var url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
 
